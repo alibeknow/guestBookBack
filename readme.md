@@ -19,5 +19,3 @@
 - be sure to have `nodemon` installed
 - yarn run dev
 - if you don't have `nodemon` installed, change your `dev` script in package.json to `node --exec babel-node src/index.js`
-
-## Contributions are welcomed
