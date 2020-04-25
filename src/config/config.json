@@ -1,0 +1,30 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "123321",
+    "database": "test",
+    "host": "localhost",
+    "port":5433,
+    "dialect": "postgres",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "test_db_name",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "",
+    "database": "production_db_name",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
